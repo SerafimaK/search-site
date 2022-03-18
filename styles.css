@@ -1,44 +1,64 @@
 body {
-  margin: 0;
-  min-width: 960px;
   font-family:  "Arial", sans-serif;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
+  border: 2px solid red;
 }
 
 .page-header {
-  margin: 0 0 60px;
-  padding: 32px 32px 32px;
-  max-width: 1408px;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.page-header a{
+  padding: 10px;
+  margin: 10px;
   text-decoration: none;
+  color: black;
 }
 
-.page-header a {
-  margin-left: 28px;
-  color: rgba(0,0,0,0.87);
-  text-decoration: none;
+.container{
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  border: 1px solid yellow;
+  height: 90vh;
+  min-width: 300px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.search-form  {
-  margin: 300px;
-  max-width: 1408px;
-  text-align: center;
+/*.search-form {
+  display: block;
+  padding: 10px;
+  min-width: 300px;
+  max-width: 600px;
+  border: 1px solid pink;
+}*/
+
+form{
+  border: 1px solid seagreen;
+  padding: 10px;
+  width: 100%;
 }
 
-.form {
-  width: 500px;
+.input{ 
+  width: 100%;
   height: 30px;
   border: 1px solid #aaaaaa;
-  border-radius: 24px;
+  /*border-radius: 24px;*/
+  margin-bottom: 10px;
+  padding: 5px;
 }
 
 .button {
   width: auto;
   height: 30px;
-  text-align: center;
-  margin: 10px;
 }
-
+/*
 .form-advanced {
   width: 500px;
   height: 20px;
@@ -55,11 +75,6 @@ body {
   margin: 50px 20px;
   max-width: 1408px;
   text-align: left;
-}
-
-div {
-    border: 2px solid orangered;
-    padding: 10px;
 }
 
 form {
@@ -80,4 +95,4 @@ div input {
     width: 500px;
     height: 20px;
     vertical-align: middle;
-}
+}*/
