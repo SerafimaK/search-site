@@ -110,6 +110,7 @@ form{
   border: none;
   margin: 0;
   padding: 1px 0 1px 18px;
+  grid-column: 2;
 }
 
 .button-advanced{
