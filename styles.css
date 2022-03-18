@@ -113,6 +113,7 @@ form{
 .advanced-button-border{
   border: none;
   margin: 0;
+  padding: 1px 0 1px 16px;
 }
 
 .button-advanced{
